@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Prototype</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <div class="row">
+          <div class="col-9">
+            <input
+              type="search"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="Enter city name"
+            />
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+      <p class="emoji">⛅</p>
+      <h1>Rio</h1>
+      <h2 class="temperature" id="temperature">18</h2>
+      <span class="units">
+        <p class="celsius-link">°C</p>
+      </span>
+      <h2 class="month1">Today</h2>
+      <h2 class="times">Today</h2>
+
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Mon</h5>
+              <h6>24ºC</h6>
+              <p class="card-text">⛅</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Tue</h5>
+              <h6>21ºC</h6>
+              <p class="card-text">🌦</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Wed</h5>
+              <h6>19ºC</h6>
+              <p class="card-text">🌧</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Thu</h5>
+              <h6>23ºC</h6>
+              <p class="card-text">☀</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: auto;">
+            <div class="card-body">
+              <h5 class="card-title">Fri</h5>
+              <h6>20ºC</h6>
+              <p class="card-text">🌤</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr align="left" />
+      <h2 class="humi">Humidity Today</h2>
+      <p class="graph">📈</p>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

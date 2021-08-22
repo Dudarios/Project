@@ -1,0 +1,124 @@
+.container {
+    margin-top: 60px;
+    padding: 0px 60px 100px 0px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    margin-bottom: 60px;
+  }
+  
+  .form-group {
+    padding-left: 60px;
+    padding-top: 0px;
+  }
+  
+  h1 {
+    position: relative;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 120px;
+    color: blue;
+    display: inline;
+    padding-left: 40px;
+  }
+  
+  .month1 {
+    text-align: left;
+    position: absolute;
+    display: inline;
+    top: 310px;
+    left: 160px;
+    font-size: 25px;
+  }
+  
+  .times {
+    text-align: left;
+    position: absolute;
+    top: 350px;
+    left: 160px;
+    display: inline;
+    font-size: 25px;
+  }
+  
+  a {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    right: 1px;
+    display: inline;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  
+  .celsius-link {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    right: 1px;
+    display: inline;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  
+  .temperature {
+    position: relative;
+    top: 0px;
+    bottom: 20px;
+    right: 1px;
+    display: inline;
+    font-size: 70px;
+  }
+  
+  .row {
+    margin-top: 80px;
+    padding-left: 60px;
+  }
+  
+  .emoji {
+    position: relative;
+    font-size: 90px;
+    display: inline;
+    left: 40px;
+  }
+  
+  .card-title {
+    position: relative;
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .card-text {
+    font-size: 80px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  h6 {
+    font-size: 20px;
+    position: relative;
+    display: inline;
+    margin: 0 auto;
+    color: green;
+  }
+  
+  hr {
+    width: calc(100% + 60px);
+    margin-top: 60px;
+    border-top: 1px solid black;
+    display: block;
+    text-align: center;
+  }
+  
+  .graph {
+    font-size: 400px;
+    text-align: center;
+  }
+  
+  .humi {
+    position: relative;
+    display: block;
+    top: 60px;
+    text-align: left;
+    font-size: 60px;
+    padding-left: 60px;
+  }
