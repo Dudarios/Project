@@ -40,15 +40,7 @@
     font-size: 25px;
   }
   
-  a {
-    text-align: center;
-    position: relative;
-    bottom: 35px;
-    right: 1px;
-    display: inline;
-    margin-bottom: 0px;
-    font-size: 20px;
-  }
+
   
   .celsius-link {
     text-align: center;
@@ -122,3 +114,11 @@
     font-size: 60px;
     padding-left: 60px;
   }
+
+  .link {position: relative;
+    display: inline;
+margin-left: 60px;}
+
+.git {position: relative;
+    display: inline;
+margin-left: 5px;}
